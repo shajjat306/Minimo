@@ -1,0 +1,200 @@
+/*common css start*/
+body{
+	margin: 0;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight: 400px;
+	color: #626262;
+}
+/*common css end*/
+/*header start*/
+header{
+	padding: 35px 0;
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid red;*/
+}
+.logo{
+	margin-top: 10px;
+	float: left;
+	width: 12%;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 65%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	margin: 0 60px;
+	font-weight: 400px;
+    color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid ;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*article start*/
+.article{
+	padding: 100px 0 30px;
+}
+.container2{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid;*/
+}
+.a_content{
+}
+.c_light{
+	margin: 0;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	font-weight: 400;
+	line-height: 24px;
+}
+.mt{
+	margin-top: 45px;
+}
+/*article end*/
+/*blog start*/
+.blog{
+	padding: 0 0 100px
+}
+.blog_item{
+	padding-top: 70px;
+	float: left;
+	width: 47%;
+	/*border: 1px solid yellow;*/
+}
+.blog_img{
+	margin-bottom: 20px;
+}
+.blog_img img{
+	width: 100%;
+}
+.blog_item:nth-child(even){
+margin-left: 6%;
+}
+/*blog end*/
+/*newz start*/
+.newz{
+	height: 270px;
+background-color: #f0f0f0;
+}
+.signup{}
+.s_h1{}
+.s_form{}
+.s_form input{}
+.s_form button{}
+.s_form button img{}
+/*newz end*/
+
+.blog2{
+padding: 30px 0 100px;
+}
+.load{
+	padding-top: 100px;
+	text-align: center;
+}
+.lbtn{
+	font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #626262;
+	padding: 18px 33px;
+	background-color: transparent;
+	border: 1px solid;
+	cursor: pointer;
+	transition: .33s linear;
+}
+.lbtn:hover{
+	background-color: #626262;
+	color: white;
+}
+
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+	padding: 30px 0;
+}
+.pages{
+	width: 35%;
+	float: left;
+}
+.pages ul{
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+.pages ul li{
+	float: left;
+	list-style: none;
+}
+.pages ul li a{
+	margin-right: 15px;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+.social{
+	width: 35%;
+	float: right;
+}
+.social ul{
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+.social ul li{
+	float: left;
+	list-style: none;
+}
+.social ul li span{
+    font-weight: 400px;
+    color: black;
+    margin-left: 15px;
+}
+.social ul li a{
+	margin-left: 15px;
+	text-decoration: none;
+}
+.social ul li a img{}
+
+/*footer end*/
